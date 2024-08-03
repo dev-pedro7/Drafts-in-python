@@ -21,15 +21,15 @@ pessoa = {
     ],
 }
 """
-# print(pessoa['nome'])
-# print(pessoa['sobrenome'])
+ print(pessoa['nome'])
+ print(pessoa['sobrenome'])
 
-# for chave in pessoa:
-#     print(chave, pessoa[chave])
-# for pessoas, valor in pessoa.items():
-#     print(pessoas, valor)
-# pessoa.setdefault('idade', 16)
-# print(pessoa['idade'])
+ for chave in pessoa:
+     print(chave, pessoa[chave])
+ for pessoas, valor in pessoa.items():
+     print(pessoas, valor)
+ pessoa.setdefault('idade', 16)
+ print(pessoa['idade'])
 
 
 
