@@ -1,12 +1,12 @@
-"""
+
 bgl = ''
 for i in 'dw':
     bgl += (f'!{i}')
     print(i)
 print(bgl)
-"""
 
-"""
+
+
 for + range
 range -> (start, stop, step)
 """
@@ -24,7 +24,7 @@ for i in range(10):
         print(i, j)
 else:
     print('For completo com sucesso!')
-"""
+
 """
 Faça um jogo para o usuário adivinhar qual
 a palavra secreta.
@@ -41,7 +41,7 @@ na palavra secreta.
 Faça a contagem de tentativas do seu
 usuário.
 """ 
-"""
+
 import os
 tentativas = 0
 secret = 'perfume'
@@ -66,7 +66,7 @@ while True:
         os.system('cls')
         print('Voce ganhou',tentativas)  
         break      
- """
+ 
 #Escreva uma função chamada calcular_cubo que recebe 
 #um número como argumento e retorna o cubo desse número.
 
