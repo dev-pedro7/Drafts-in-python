@@ -10,5 +10,5 @@ Operação ternária (condicional de uma linha)
  novo_digito = 0 if digito > 9 else digito
  print(novo_digito)
 print(0 if False else 'Outro valor' if False else 'Fim')
-pal = 1
-print(pal if pal>1  else 'Outro valor' )
+VALOR = 1
+print(VALOR if VALOR >1  else 'Outro valor' )
