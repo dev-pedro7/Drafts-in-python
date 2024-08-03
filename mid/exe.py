@@ -1,41 +1,39 @@
 
 
-# def multiplicar(*args):
-#     total = 1
-#     for numero in args:
-#         total *= numero
-#     return total
+ def multiplicar(*args):
+     total = 1
+     for numero in args:
+         total *= numero
+     return total
 
+ a = multiplicar(10,10)
+ print(a)
 
-# a = multiplicar(10,10)
-# print(a)
+ def par_impar(z):
+     par = z % 2 
+     if par is 0:
+         return 'Par'
+    else:
+        return 'Impar'
+ print(par_impar(6))    
 
-# def par_impar(z):
-#     par = z % 2 
-#     if par is 0:
-#         return 'Par'
-#     else:
-#         return 'Impar'
+ def duplica(z):
+     return z * 2
 
-# print(par_impar(6))    
+ print(duplica(2))    
 
-# def duplica(z):
-#     return z * 2
+ def triplica(y):
+    return y * 3
 
-# print(duplica(2))    
+print(triplica(2))    
 
-# def triplica(y):
-#     return y * 3
+ def quadriplica(x):
+     return x * 4
 
-# print(triplica(2))    
-
-# def quadriplica(x):
-#     return x * 4
-
-# print(triplica(4))    
+print(triplica(4))    
 
 #or
-"""
+
 print(123)
 def criar_multiplicador(multiplicador):
     def multiplicar(numero):
@@ -50,7 +48,7 @@ quadruplicar = criar_multiplicador(4)
 print(duplicar(2))
 print(triplicar(2))
 print(quadruplicar(2))    
-"""
+
 
 prod = [
     {'nome': 'Produto 5', 'preco': 10.00},
