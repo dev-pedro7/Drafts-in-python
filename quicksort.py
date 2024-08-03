@@ -1,14 +1,14 @@
-# def quicksort(array):
-#     if len(array) < 2:
-#         return array
+ def quicksort(array):
+     if len(array) < 2:
+       return array
 
-#     else:
-#         pivo = array[0]
-#         menores = [i for i in array[1:] if i <= pivo]    
-#         maiores = [i for i in array[1:] if i >= pivo]
-#     return quicksort(menores)+ [pivo] +quicksort(maiores)
+     else:
+        pivo = array[0]
+       menores = [i for i in array[1:] if i <= pivo]    
+         maiores = [i for i in array[1:] if i >= pivo]
+    return quicksort(menores)+ [pivo] +quicksort(maiores)
 
-# print(quicksort([4, 3, 2, 8,1]))
+ print(quicksort([4, 3, 2, 8,1]))
 
 texto = ['ABC123', 'abd012', ' ABS111', 'aBb222 ']
 
