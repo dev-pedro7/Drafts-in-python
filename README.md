@@ -1,1 +1,1 @@
-Aqui são todos meus rascunhos de aprendizado na Linguagem Python, agradeço ao professor Luiz Otavio por todos os ensinamentos.
+Aqui são todos meus rascunhos de aprendizado na Linguagem Python, agradeço ao professor Luiz Otavio por todos os ensinamentos. Muitos arquivos dentro da pasta "./mid" são exercicios proporcionados pela plataforma "CodeWars"
