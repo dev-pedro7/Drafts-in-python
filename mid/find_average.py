@@ -5,3 +5,4 @@ def find_average(numbers):
     return new_value
 lista = [5,10,5]    
 print(find_average(lista))
+
