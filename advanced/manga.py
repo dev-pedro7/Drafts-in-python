@@ -1,0 +1,1 @@
+ola = float('inf')
