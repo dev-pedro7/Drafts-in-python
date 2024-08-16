@@ -16,3 +16,9 @@ p1 = Pessoa('Pedro', "Henrique")
 print(p1.nome, p1.sobrenome)
 p1.walk()
 p1.walk()
+
+# print(p1.__dict__)
+# print(vars(p1))
+
+# p1.nome = 'Alterado'
+# print(p1.nome)
