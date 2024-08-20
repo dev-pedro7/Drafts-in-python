@@ -19,4 +19,6 @@ print(cores.core)
 print(cores.cor_iris)        
 
 
-        
+
+    
+
